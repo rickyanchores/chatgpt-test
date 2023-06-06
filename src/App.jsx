@@ -18,10 +18,10 @@ function App() {
 
   return (
     <>
-      <div className="App bg-violet-700 rounded-lg p-5">
+      <div className="App bg-purple-800 rounded-lg p-5 m-1">
         <h1>React Vite Tailwind</h1>
         <p>Created with chatGPT</p>
-        <div className="box text-red-600">BOX</div>
+        <div className="box text-teal-600 font-extrabold">BOX</div>
         <ImageSlider images={images}/>
       </div>
     </>  
@@ -29,3 +29,5 @@ function App() {
 }
 
 export default App;
+
+
